@@ -6,4 +6,5 @@ public class Main {
         int result = service.remain(1800);
         System.out.println("For more cashback please add a purchase in the amount of " + result);
     }
+
 }
