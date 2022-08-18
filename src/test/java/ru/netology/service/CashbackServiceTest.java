@@ -34,11 +34,11 @@ public class CashbackServiceTest {
     }
 
     @Test
-    public void shouldReturn1000WhenAmountIs1000() {
+    public void shouldReturnNothingWhenAmountIs1000() {
         CashbackService service = new CashbackService();
         int amount = 1000;
         int actual = service.remain(amount);
-        int expected = 1000;
+        int expected = 0;
         assertEquals(actual, expected);
     }
 
